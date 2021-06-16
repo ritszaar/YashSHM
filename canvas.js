@@ -33,7 +33,7 @@ yash.addEventListener('load',
 
             c.putImageData(newPixels, 0, 0);
             threshold = 50 * Math.sin(t) + 100;
-            t += 0.02;
+            t += 0.03;
             requestAnimationFrame(draw);
         }
         draw();
